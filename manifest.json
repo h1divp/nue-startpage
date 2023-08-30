@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "nue-startpage",
+  "short_name": "nue-startpage",
+  "version": "1",
+  "description": "A custom startpage.",
+  "author": "fuenix86",
+
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage"]
+}

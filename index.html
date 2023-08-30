@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<meta name="color-scheme" content="dark light" />
+<meta name="robots" content="noindex" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<html lang="en">
+
+<head>
+
+  <title>🏠 Home</title>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <meta name="description" content="" />
+
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="script.js"></script>
+</head>
+
+<template id="bookmark-group-template">
+    <div class="group">
+        <p class="group-header"></p>
+    </div>
+</template>
+
+<template id="bookmark-template">
+    <a class="bookmark">
+        <span class="shortcut"></span>
+        <span class="name"></span>
+    </a>
+</template>
+
+<body>
+    <h1 id="headerMessage"></h1>
+
+    <!-- This element injects the bookmark groups into .row-->
+    <!-- (　’ω’)旦~~ -->
+    <bookmarks-component></bookmarks-component>
+
+    <div class="row"></div>
+</body>
+</html>
